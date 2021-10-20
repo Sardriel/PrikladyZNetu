@@ -8,12 +8,12 @@ namespace PrikladyZNetu
 {
     class FindTheBomb
     {
-        public string FindBomb(string sentense)
+        public string FindBomb(string sentence)
         {
             string bomb = "Duck!!!";
             string nobomb = "Relax, there is no bomb.";
-            sentense = sentense.ToLower();
-            if (sentense.Contains("bomb"))
+            sentence = sentence.ToLower();
+            if (sentence.Contains("bomb"))
             {
                 return bomb;
             }
