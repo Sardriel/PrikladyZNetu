@@ -12,7 +12,7 @@ namespace PrikladyZNetu
             ///string fraction = Console.ReadLine();
             ///GreaterThanOne greaterThanOne = new GreaterThanOne();
             ///Console.WriteLine(greaterThanOne.CheckGreaterThanOne(fraction));
-            
+            ///Console.ReadKey();
 
             ///Check if a Number is Prime
             ///Create a function that returns true if a number is prime, and false otherwise. A prime number is any positive integer that is evenly divisible by only two divisors: 1 and itself.
@@ -22,7 +22,6 @@ namespace PrikladyZNetu
             ///Console.WriteLine(isPrime.IsThatNumberPrime(number));
             ///Console.ReadKey();
 
-
             ///Reverse the Case
             ///Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
             ///Console.WriteLine("Type the sentence for which you want to change case:");
@@ -31,8 +30,8 @@ namespace PrikladyZNetu
             ///Console.WriteLine(reverseTheCase.ReversingTheCase(vetaOriginal));
             ///Console.ReadKey();
 
-
             ///Find the bomb
+            ///Create a function that finds the word "bomb" in the given string (not case sensitive). If found, return "Duck!!!", otherwise, return "There is no bomb, relax.".
             ///Console.WriteLine("Write the sentece:");
             ///string sentece = Console.ReadLine();
             ///FindTheBomb findTheBomb = new FindTheBomb();
@@ -40,6 +39,7 @@ namespace PrikladyZNetu
             ///Console.ReadKey();
 
             ///Multiples
+            ///Create a function that takes two numbers as arguments (num, length) and returns an array of multiples of num until the array length reaches length.
             ///Console.WriteLine("Enter the length of array:");
             ///int delkaPole = int.Parse(Console.ReadLine());
             ///Console.WriteLine("Enter the number you want to multiply:");
