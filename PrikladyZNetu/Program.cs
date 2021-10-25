@@ -6,6 +6,16 @@ namespace PrikladyZNetu
     {
         static void Main(string[] args)
         {
+            ///Find the Characters Counterpart Char Code
+            ///Create a function that takes a single character as an argument and returns the char code of its lowercased / uppercased counterpart.
+            ///The argument will always be a single character.
+            ///Not all inputs will have a counterpart(e.g.numbers), in which case return the input's char code.
+            ///Console.WriteLine("Enter character: ");
+            ///char character = (char)Console.Read();
+            ///FindTheCharactersCounterpartCharCode findTheCharactersCounterpartCharCode = new FindTheCharactersCounterpartCharCode();
+            ///Console.WriteLine(findTheCharactersCounterpartCharCode.FindTheCounterPart(character));
+            
+
             ///Fraction Greater Than One
             ///Given a fraction as a string, return whether or not it is greater than 1 when evaluated.
             ///Console.WriteLine("Enter the fraction you want to compare with one:");
