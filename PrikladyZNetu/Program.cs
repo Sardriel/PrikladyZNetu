@@ -6,6 +6,18 @@ namespace PrikladyZNetu
     {
         static void Main(string[] args)
         {
+            ///Return the Highest and Lowest Numbers
+            ///Create a function that accepts a string of space separated numbers and returns the highest and lowest number (as a string).
+            ///All numbers are valid Int32, no need to validate them.
+            ///There will always be at least one number in the input string.
+            ///Output string must be two numbers separated by a single space, and highest number is first.
+            Console.WriteLine("Enter space separated numbers:");
+            string[] numberInput = Console.ReadLine().Split(" ");
+            ReturnTheHighestAndLowestNumbers returnTheHighestAndLowestNumbers = new ReturnTheHighestAndLowestNumbers();
+            Console.WriteLine(returnTheHighestAndLowestNumbers.ReturnHighLow(numberInput));
+
+
+
             ///ATM PIN Code Validation
             ///ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits. 
             ///Your task is to create a function that takes a string and returns true if the PIN is valid and false if it's not.
@@ -16,7 +28,7 @@ namespace PrikladyZNetu
             ///AtmPinCodeValidation atmPinCodeValidation = new AtmPinCodeValidation();
             ///Console.WriteLine(atmPinCodeValidation.AtmValidation(pinCode));
             ///Console.ReadKey();
-            
+
             ///Find the Characters Counterpart Char Code
             ///Create a function that takes a single character as an argument and returns the char code of its lowercased / uppercased counterpart.
             ///The argument will always be a single character.
