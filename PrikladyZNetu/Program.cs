@@ -6,6 +6,14 @@ namespace PrikladyZNetu
     {
         static void Main(string[] args)
         {
+            ///Fraction Greater Than One
+            ///Given a fraction as a string, return whether or not it is greater than 1 when evaluated.
+            ///Console.WriteLine("Enter the fraction you want to compare with one:");
+            ///string fraction = Console.ReadLine();
+            ///GreaterThanOne greaterThanOne = new GreaterThanOne();
+            ///Console.WriteLine(greaterThanOne.CheckGreaterThanOne(fraction));
+            
+
             ///Check if a Number is Prime
             ///Create a function that returns true if a number is prime, and false otherwise. A prime number is any positive integer that is evenly divisible by only two divisors: 1 and itself.
             ///Console.WriteLine("Write a number: ");
