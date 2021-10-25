@@ -6,6 +6,17 @@ namespace PrikladyZNetu
     {
         static void Main(string[] args)
         {
+            ///ATM PIN Code Validation
+            ///ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits. 
+            ///Your task is to create a function that takes a string and returns true if the PIN is valid and false if it's not.
+            ///Some test cases contain special characters.
+            ///Empty strings must return false.
+            ///Console.WriteLine("Enter the PIN: (4 or 6 digit):");
+            ///string pinCode = Console.ReadLine();
+            ///AtmPinCodeValidation atmPinCodeValidation = new AtmPinCodeValidation();
+            ///Console.WriteLine(atmPinCodeValidation.AtmValidation(pinCode));
+            ///Console.ReadKey();
+            
             ///Find the Characters Counterpart Char Code
             ///Create a function that takes a single character as an argument and returns the char code of its lowercased / uppercased counterpart.
             ///The argument will always be a single character.
@@ -14,7 +25,6 @@ namespace PrikladyZNetu
             ///char character = (char)Console.Read();
             ///FindTheCharactersCounterpartCharCode findTheCharactersCounterpartCharCode = new FindTheCharactersCounterpartCharCode();
             ///Console.WriteLine(findTheCharactersCounterpartCharCode.FindTheCounterPart(character));
-            
 
             ///Fraction Greater Than One
             ///Given a fraction as a string, return whether or not it is greater than 1 when evaluated.
