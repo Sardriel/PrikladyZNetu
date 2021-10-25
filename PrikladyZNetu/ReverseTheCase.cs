@@ -8,29 +8,24 @@ namespace PrikladyZNetu
 {
     class ReverseTheCase
     {
-        public string ReversingTheCase(string vetaOriginal)
+        public string ReversingTheCase(string originalSentence)
         {
-            string reseni = "";
+            string solution = "";
             
-            
-            foreach (char z in vetaOriginal)
+            foreach (char character in originalSentence)
             {
-                if (char.IsUpper(z)) 
+                if (char.IsUpper(character)) 
                 { 
-                    reseni += char.ToLower(z);
+                    solution += char.ToLower(character);
                     
                 } 
                 else 
                 { 
-                    reseni += char.ToUpper(z);
+                    solution += char.ToUpper(character);
                     
                 }
-                
-                
-                
-                
             }
-            return reseni;
+            return solution;
         }
         
 

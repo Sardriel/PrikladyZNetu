@@ -9,21 +9,21 @@ namespace PrikladyZNetu
     class Multiples
     {
 
-        public string CreateMultiple(int delkaPole, int nasobek)
+        public string CreateMultiple(int arrayLength, int multiple)
         {
-            string reseni = "";
-            int[] pole = new int[delkaPole];
-            int pomocna = nasobek;
-            for (int i = 0; i < delkaPole; i++)
+            string solution = "";
+            int[] array = new int[arrayLength];
+            int pomocna = multiple;
+            for (int i = 0; i < arrayLength; i++)
             {
 
-                pole[i] = (nasobek);
-                nasobek = nasobek + pomocna;
+                array[i] = (multiple);
+                multiple = multiple + pomocna;
                 
             }
-            foreach (int i in pole)
-                reseni += i +"\n";
-            return reseni;
+            foreach (int i in array)
+                solution += i +"\n";
+            return solution;
             
 
         }

@@ -37,7 +37,7 @@ namespace PrikladyZNetu
             ///Console.WriteLine("Type the sentence for which you want to change case:");
             ///string vetaOriginal = Console.ReadLine();
             ///ReverseTheCase reverseTheCase = new ReverseTheCase();
-            ///Console.WriteLine(reverseTheCase.ReversingTheCase(vetaOriginal));
+            ///Console.WriteLine(reverseTheCase.ReversingTheCase(originalSentence));
             ///Console.ReadKey();
 
             ///Find the bomb
@@ -45,17 +45,17 @@ namespace PrikladyZNetu
             ///Console.WriteLine("Write the sentece:");
             ///string sentece = Console.ReadLine();
             ///FindTheBomb findTheBomb = new FindTheBomb();
-            ///Console.WriteLine(findTheBomb.FindBomb(sentese));
+            ///Console.WriteLine(findTheBomb.FindBomb(sentece));
             ///Console.ReadKey();
 
             ///Multiples
             ///Create a function that takes two numbers as arguments (num, length) and returns an array of multiples of num until the array length reaches length.
             ///Console.WriteLine("Enter the length of array:");
-            ///int delkaPole = int.Parse(Console.ReadLine());
+            ///int arrayLength = int.Parse(Console.ReadLine());
             ///Console.WriteLine("Enter the number you want to multiply:");
-            ///int nasobek = int.Parse(Console.ReadLine());
+            ///int multiple = int.Parse(Console.ReadLine());
             ///Multiples multiples = new Multiples();
-            ///Console.WriteLine(multiples.CreateMultiple(delkaPole, nasobek));
+            ///Console.WriteLine(multiples.CreateMultiple(arrayLength, multiple));
             ///Console.ReadKey();
         }
     }
