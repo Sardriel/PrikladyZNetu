@@ -15,7 +15,9 @@ namespace PrikladyZNetu
             int sumNegative = numbers.Where(negative => negative < 0).Sum();
             if (numbers.Length == 0)
             {
-                return(" ");
+                int[] emptyArray = { };
+                return ($"{emptyArray}");
+                
             }
             else
             {
