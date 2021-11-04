@@ -11,16 +11,9 @@ namespace PrikladyZNetu
             ///If given an empty array, return an empty array: []
             ///Cast sum to int, don't mind the remaining decimal places.
             ///0 is not positive.
-            PositiveCountNegativeSum positiveCountNegativeSum = new PositiveCountNegativeSum();
-            Console.WriteLine(positiveCountNegativeSum.CountPositiveSumNegative());
-            Console.ReadKey();
-
-
-
-
-
-
-
+            ///PositiveCountNegativeSum positiveCountNegativeSum = new PositiveCountNegativeSum();
+            ///Console.WriteLine(positiveCountNegativeSum.CountPositiveSumNegative());
+            ///Console.ReadKey();
 
             ///Return the Highest and Lowest Numbers
             ///Create a function that accepts a string of space separated numbers and returns the highest and lowest number (as a string).
