@@ -6,6 +6,14 @@ namespace PrikladyZNetu
     {
         static void Main(string[] args)
         {
+            ///ReverseAndNot
+            ///Write a function that takes an integer i and returns a string with the integer backwards followed by the original integer.
+            ///i is a non-negative integer.
+            ///Bonus: By using System.Linq this should be completed in one line of code. 
+            ReverseAndNot reverseAndNot = new ReverseAndNot();
+            reverseAndNot.DoReverseAndAddNotReverse();
+
+
             ///Positive Count / Negative Sum
             ///Create a function that takes an array of positive and negative numbers. Return an array where the first element is the count of positive numbers and the second element is the sum of negative numbers.
             ///If given an empty array, return an empty array: []
