@@ -10,7 +10,7 @@ namespace PrikladyZNetu
     {
         public void DoReverseAndAddNotReverse()
         {
-            int i = 123;
+            int i = 123456789;
             string s = i.ToString();
             char[] charArray = s.ToCharArray();
             Array.Reverse(charArray);

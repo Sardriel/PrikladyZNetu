@@ -6,12 +6,21 @@ namespace PrikladyZNetu
     {
         static void Main(string[] args)
         {
+            ///Reverse the Odd Length Words
+            ///Given a string, reverse all the words which have odd length. The even length words are not changed.
+            Console.WriteLine("Write the words.");
+            string[] words = Console.ReadLine().Split(" ");
+            ReversetheOddLengthWords reversetheOddLengthWords = new ReversetheOddLengthWords();
+            reversetheOddLengthWords.Reverse(words);
+            
+
+
             ///ReverseAndNot
             ///Write a function that takes an integer i and returns a string with the integer backwards followed by the original integer.
             ///i is a non-negative integer.
             ///Bonus: By using System.Linq this should be completed in one line of code. 
-            ReverseAndNot reverseAndNot = new ReverseAndNot();
-            reverseAndNot.DoReverseAndAddNotReverse();
+            ///ReverseAndNot reverseAndNot = new ReverseAndNot();
+            ///reverseAndNot.DoReverseAndAddNotReverse();
 
 
             ///Positive Count / Negative Sum
