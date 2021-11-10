@@ -6,14 +6,17 @@ namespace PrikladyZNetu
     {
         static void Main(string[] args)
         {
+            ///Palindrome
+            ///Check if given word is palindrome
+            ///Palindrome palindrome = new Palindrome();
+            ///palindrome.CheckPalindrome();
+
             ///Reverse the Odd Length Words
             ///Given a string, reverse all the words which have odd length. The even length words are not changed.
-            Console.WriteLine("Write the words.");
-            string[] words = Console.ReadLine().Split(" ");
-            ReversetheOddLengthWords reversetheOddLengthWords = new ReversetheOddLengthWords();
-            reversetheOddLengthWords.Reverse(words);
-            
-
+            ///Console.WriteLine("Write the words.");
+            ///string[] words = Console.ReadLine().Split(" ");
+            ///ReversetheOddLengthWords reversetheOddLengthWords = new ReversetheOddLengthWords();
+            ///reversetheOddLengthWords.Reverse(words);
 
             ///ReverseAndNot
             ///Write a function that takes an integer i and returns a string with the integer backwards followed by the original integer.
@@ -21,7 +24,6 @@ namespace PrikladyZNetu
             ///Bonus: By using System.Linq this should be completed in one line of code. 
             ///ReverseAndNot reverseAndNot = new ReverseAndNot();
             ///reverseAndNot.DoReverseAndAddNotReverse();
-
 
             ///Positive Count / Negative Sum
             ///Create a function that takes an array of positive and negative numbers. Return an array where the first element is the count of positive numbers and the second element is the sum of negative numbers.
@@ -82,7 +84,7 @@ namespace PrikladyZNetu
             ///Reverse the Case
             ///Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
             ///Console.WriteLine("Type the sentence for which you want to change case:");
-            ///string vetaOriginal = Console.ReadLine();
+            ///string originalSentence = Console.ReadLine();
             ///ReverseTheCase reverseTheCase = new ReverseTheCase();
             ///Console.WriteLine(reverseTheCase.ReversingTheCase(originalSentence));
             ///Console.ReadKey();
