@@ -15,13 +15,13 @@ namespace PrikladyZNetu
             {
                 if (word.Length % 2 == 0)
                 {
-                    char[] charArray = word.ToCharArray();
-                    Array.Reverse(charArray);
-                    Console.Write("{0} ", new string(charArray));
+                    Console.Write("{0} ", word);
                 }
                 else if (word.Length % 2 != 0)
                 {
-                    Console.Write("{0} ", word);
+                    char[] charArray = word.ToCharArray();
+                    Array.Reverse(charArray);
+                    Console.Write("{0} ", new string(charArray));
                 }
             }
         }
