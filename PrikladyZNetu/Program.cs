@@ -75,11 +75,11 @@ namespace PrikladyZNetu
 
             ///Check if a Number is Prime
             ///Create a function that returns true if a number is prime, and false otherwise. A prime number is any positive integer that is evenly divisible by only two divisors: 1 and itself.
-            ///Console.WriteLine("Write a number: ");
-            ///int number = int.Parse(Console.ReadLine());
-            ///IsPrime isPrime = new IsPrime();
-            ///Console.WriteLine(isPrime.IsThatNumberPrime(number));
-            ///Console.ReadKey();
+            Console.WriteLine("Write a number: ");
+            int number = int.Parse(Console.ReadLine());
+            IsPrime isPrime = new IsPrime();
+            Console.WriteLine(isPrime.IsThatNumberPrime(number));
+            Console.ReadKey();
 
             ///Reverse the Case
             ///Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
