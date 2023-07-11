@@ -95,6 +95,7 @@ namespace PrikladyZNetu
             ///string sentece = Console.ReadLine();
             ///FindTheBomb findTheBomb = new FindTheBomb();
             ///Console.WriteLine(findTheBomb.FindBomb(sentece));
+            ///Console.WriteLine("Press any keyboard for quit");
             ///Console.ReadKey();
 
             ///Multiples
@@ -106,13 +107,18 @@ namespace PrikladyZNetu
             ///Multiples multiples = new Multiples();
             ///Console.WriteLine(multiples.CreateMultiple(arrayLength, multiple));
             ///Console.ReadKey();
-            
-            //KonKEqualsN konKEqualsN = new KonKEqualsN();
-            //Console.WriteLine(konKEqualsN.Equals(387420489, 9));
 
+            ///KonKEqualsN konKEqualsN = new KonKEqualsN();
+            ///Console.WriteLine(konKEqualsN.Equals(387420489, 9));
 
-            
-           
+            ///FindingNemo findingNemo = new FindingNemo();
+            ///Console.WriteLine(findingNemo.FindNemo(Console.ReadLine()));
+
+            PitoNDecimalPlaces pitoNDecimalPlaces = new PitoNDecimalPlaces();
+            Console.WriteLine("Write the number not greater than 15:");
+            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine(pitoNDecimalPlaces.RoundPiToNDecimal(number));
+
         }
     }
 }
